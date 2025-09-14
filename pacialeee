@@ -1,0 +1,84 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Evaluación de Calidad — Khan Academy (Geometría)</title>
+  <style>
+    :root{--accent:#1167b1;--muted:#666;--bg:#f7f9fb;--card:#fff}
+    body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:var(--bg); color:#222; margin:0; padding:24px;}
+    header{max-width:900px;margin:0 auto 20px;}
+    .card{background:var(--card); border-radius:12px; padding:18px; box-shadow:0 6px 18px rgba(20,30,50,0.06); margin-bottom:16px;}
+    h1{color:var(--accent); margin:0 0 8px;}
+    table{width:100%; border-collapse:collapse; font-size:14px;}
+    th,td{padding:8px; border-bottom:1px solid #eee; text-align:left;}
+    th{background:#fafbfd; font-weight:600;}
+    .scores{display:flex; gap:12px; flex-wrap:wrap;}
+    .scorebox{flex:1; min-width:160px; padding:12px; border-radius:8px; background:#f2f7ff; text-align:center;}
+    footer{max-width:900px;margin:20px auto;color:var(--muted); font-size:13px;}
+    @media(max-width:720px){body{padding:12px}}
+  </style>
+</head>
+<body>
+  <header class="card">
+    <h1>Evaluación de Calidad — Khan Academy (Geometría)</h1>
+    <div style="color:var(--muted);">Autor: [Tu nombre] · Curso: [Nombre del curso] · Fecha: [DD/MM/AAAA]</div>
+  </header>
+
+  <main style="max-width:900px;margin:0 auto;">
+
+    <section class="card">
+      <h2>1. Descripción del recurso</h2>
+      <p>Khan Academy — lecciones y ejercicios interactivos sobre área y perímetro. Plataforma web con contenido multimedia, ejercicios y seguimiento de progreso.</p>
+    </section>
+
+    <section class="card">
+      <h2>2. Modelos de calidad aplicados</h2>
+      <p>Se aplicaron los modelos de McCall, Boehm y FURPS. Cada modelo se evaluó con la plantilla estándar y escala: Excelente=4 / Bueno=3 / Regular=2 / Malo=1.</p>
+    </section>
+
+    <section class="card">
+      <h2>3. Resultados</h2>
+      <div class="scores">
+        <div class="scorebox"><strong>McCall</strong><div style="font-size:20px;margin-top:6px">76.4 / 100</div></div>
+        <div class="scorebox"><strong>Boehm</strong><div style="font-size:20px;margin-top:6px">93.8 / 100</div></div>
+        <div class="scorebox"><strong>FURPS</strong><div style="font-size:20px;margin-top:6px">84.8 / 100</div></div>
+      </div>
+
+      <h3 style="margin-top:14px">Tabla Resumen</h3>
+      <table>
+        <thead><tr><th>Modelo</th><th>Puntaje</th></tr></thead>
+        <tbody>
+          <tr><td>McCall</td><td>76.4 / 100</td></tr>
+          <tr><td>Boehm</td><td>93.8 / 100</td></tr>
+          <tr><td>FURPS</td><td>84.8 / 100</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>4. Conclusiones</h2>
+      <ul>
+        <li>Boehm arroja la valoración más alta: la plataforma es muy útil y mantenible.</li>
+        <li>McCall destaca la usabilidad y seguridad, pero muestra limitación en portabilidad (dependencia de red).</li>
+        <li>FURPS proporciona una visión equilibrada; buen soporte y rendimiento en general.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>5. Referencias</h2>
+      <ul>
+        <li>Rey, A. (2015). Evaluación de la Calidad de la Tecnología Educativa (CVUDES).</li>
+        <li>Fillotranni, P. (2007). Calidad del desarrollo de software.</li>
+        <li>Ortiz, K. (2018). Video: Modelos de Calidad FURPS.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    Documento generado como entrega parcial para actividad de evaluación de modelos de calidad.
+  </footer>
+</body>
+</html>
